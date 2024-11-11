@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SearchBox from "./SearchBox.jsx";
-import InfoBox from "./infoBox.jsx";
+import Info from "./Info.jsx";
 
 
 export default function WeatherApp() {
@@ -28,7 +28,7 @@ export default function WeatherApp() {
             <h1>Search For Weather</h1>
             <SearchBox updateInfo={updateInfo}/>
             <br />
-            <InfoBox info={weatherInfo} />
+            <Info info={weatherInfo} />
         </div>
     );
 }
